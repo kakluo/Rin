@@ -47,8 +47,7 @@ function Footer() {
                 <p className='text-sm text-neutral-500 font-normal link-line'>
                     <span>
                         © 2024 Powered by <a className='hover:underline' href="https://github.com/kakluo/Rin" target="_blank">Rin</a>
-                        © 2024 Powered by <a className='hover:underline' href="https://caoni.us.kg" target="_blank">Home</a>
-                    </span>
+                 </span>
                     {config.get<boolean>('rss') && <>
                         <Spliter />
                         <Popup trigger={
